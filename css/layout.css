@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+* {
+				box-sizing: border-box;				
+				font-family: 'League Spartan', sans-serif;
+}
+
+body {
+				margin: 0;
+				padding: 18px;				
+}
+
+#calc-box {
+				margin: auto;
+				max-width: 400px;
+}
+
+#header,
+.theme {
+				display: flex;
+				justify-content: space-between;
+}
+
+.header__main {
+				font-size: 1.7em;
+				margin: 0;
+				padding: 25px 0;
+}
+
+.theme__select {
+				padding: 10px 0;
+}
+
+.theme__heading {
+				text-transform: uppercase;
+				font-size: 12px;
+				margin: 32px 20px 0 0;
+}
+
+.theme__btn {
+				background: none;
+				border: none;
+				padding: 0 6px;
+				font-size: 12px;
+}
+
+.theme__slider {
+				width: 60px;
+				height: 20px;
+				margin-top: 3px;
+				border-radius: 30px;
+				padding: 3px 4px 4px 4px;
+}
+
+#user__input {
+				width: 100%;
+				border: none;
+				height: 65px;
+				border-radius: 3px;
+				outline: none;
+				font-weight: 700;
+				font-size: 2.2em;
+				text-align: right;
+				padding: 12px;
+}
+
+#buttons {
+				padding: 20px;
+				border-radius: 7px;
+				margin-top: 20px;
+}
+
+#calc__button {
+				display: grid;
+				grid-template-columns: auto auto auto auto;
+				grid-column-gap: 16px;
+				grid-row-gap: 16px;
+}
+
+.btn {			
+				border: none;
+				height: 40px;
+				font-size: 24px;
+				font-weight: 700;
+				border-radius: 6px;
+				padding-top: 6px;
+				cursor: pointer;
+}
+
+.button__del {
+				font-size: 16px;
+}
+
+.button__reset {
+				grid-column: 1 / span 2;
+				text-transform: uppercase;
+				font-size: 16px;
+}
+
+.button__equal {
+				grid-column: 3 / span 2;
+}
+
+

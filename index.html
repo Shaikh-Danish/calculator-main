@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/layout.css"></link> 
+  <link rel="stylesheet" href="css/theme_3.css" class="theme-link"></link>
+  <title>Calculator app</title>
+</head>
+<body>
+		<main>
+				<section id="calc-box">
+								
+						<article id="header">
+								<h1 class="header__main">calc</h1>
+								<section class="theme">
+								  <h3 class="theme__heading">theme</h3>
+								  <article class="theme__select">
+								  		<button class="theme__btn theme__1">1</button>
+								  		<button class="theme__btn theme__2">2</button>
+								  		<button class="theme__btn theme__3">3</button>
+								  		<div class="theme__slider">
+								  				<div class="theme__roll"></div>
+								  		</div>
+								  </article> 
+								</section>	
+						</article>
+						
+						<article id="input">
+								<input type="text" name="" id="user__input" readonly>
+						</article>
+						
+						<article id="buttons">
+										<section id="calc__button">
+														<button class="btn btn-num" value="7">7</button>
+														<button class="btn btn-num" value="8">8</button>
+														<button class="btn btn-num" value="9">9</button>
+														<button class="btn button__del">DEL</button>
+														
+														<button class="btn btn-num" value="4">4</button>
+														<button class="btn btn-num" value="5">5</button>
+														<button class="btn btn-num" value="6">6</button>
+														<button class="btn btn-operator" value="+">+</button>
+														
+														<button class="btn btn-num " value="1">1</button>
+														<button class="btn btn-num" value="2">2</button>
+														<button class="btn btn-num" value="3">3</button>
+														<button class="btn btn-operator" value="-">-</button>
+														
+														<button class="btn btn-num button__dot" value=".">.</button>
+														<button class="btn btn-num button__0" value="0">0</button>
+														<button class="btn btn-operator" value="/">/</button>
+														<button class="btn btn-operator" value="*">×</button>
+														
+														<button class="btn button__reset">reset</button>
+														<button class="btn button__equal">=</button>
+														
+										</section>
+						</article>
+						
+				</section>
+		</main>
+		<script src="js/main.js"></script>
+</body>
+</html>
